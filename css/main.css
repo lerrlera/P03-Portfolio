@@ -1,4 +1,7 @@
-/* Style Guide CSS */
+/* Main + Style Guide CSS */
+
+
+/* MAIN */
 
 /* Colors */
 :root {
@@ -10,13 +13,14 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   background-color: var(--beige);
   margin: 0;
 }
 
 h1,h2,h3,h4 {
   font-family: 'Fraunces', serif;
-  font-weight: bold;
+  font-weight: 400;
   margin: 0;
   color: var(--blue);
 }
@@ -37,67 +41,10 @@ h4 {
   font-size: 1.5rem;
 }
 
-#main {
-}
-
-.style-h1 {
-  padding-top: 25%;
-  padding-bottom: 2%;
-}
-
-#visual-style {
-  margin-top: 19%;
-  background-color: white;
-  padding: 4rem 7rem;
-  border-top: solid 0.01rem var(--blue);
-}
-
-#visual-style h2 {
-  margin-top: 7%;
-  margin-bottom: 3%;
-}
-
-.banner {
-  margin: 0;
-  height:27vw;
-  padding: 0 7rem;
-}
-
-.banner p {
-  color: var(--grey);
-  max-width: 60%;
-  font-size: 1.2rem;
-}
-
-.element {
-  padding-bottom: 5rem;
-  padding-top: 3rem;
-  border-top-width: 0.01rem;
-  border-top-style: solid;
-  border-top-color: var(--blue);
-}
-
-.element h3 {
-  margin-bottom: 2%;
-}
-.element h4 {
-  margin-bottom: 2%;
-  margin-top: 2.4%;
-}
-
-
 p {
   margin: 0;
   color: var(--grey);
   max-width: 75%;
-}
-
-code {
-  background-color: var(--pale-blue);
-  padding: 0.6rem;
-  display: block;
-  color:#8f8f98;
-  max-width: 70%;
 }
 
 .logo-style {
@@ -135,27 +82,6 @@ code {
 .logo-link:hover, .logo-link:focus {
   transform: scale(1.1);
 }
-
-.breadcrumbs {
-  display: flex;
-  margin-top: 10%;
-  margin-bottom: 5%;
-  color: var(--dark-grey);
-}
-
-.breadcrumbs p {
-  margin: 0 1%;
-}
-
-.breadcrumbs-link {
-  text-decoration: none;
-  color: var(--accent-red);
-}
-
-.breadcrumbs-link:hover, .breadcrumbs-link:focus {
-  color: var(--dark-beige);
-}
-
 
 /* Mobile burger menu */
 .burger-button {
@@ -206,99 +132,6 @@ code {
    text-decoration: none;
    font-size: 1.6rem;
 }
-
-/* Citations */
-.citations {
-  padding-top: 10%;
-}
-
-
-/* Style Guide Nav */
-
-.main-nav-style {
-  display: flex;
-  flex-direction: row;
-  gap: 4%;
-  flex: 2;
-  justify-content: flex-end;
-  padding: 2% 5%;
-}
-
-.main-nav-style a{
-  font-size: 0.9rem;
-  text-align: center;
-  text-decoration: none;
-  color: var(--dark-grey);
-  text-decoration: none;
-  transition: color 0.5s;
-  display: flex;
-  align-items: center;
-  margin: 0;
-}
-
-.main-nav-style a:hover,.main-nav a:focus {
-  color: var(--accent-red);
-}
-
-.logo-link-style {
-  transition: 0.5s ease;
-  padding-left: 5%;
-  width: 8%;
-}
-
-.logo-link-style:hover, .logo-link-style:focus {
-  transform: scale(1.1);
-}
-
-/* Newsletter section */
-
-#newsletter {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#newsletter h3 {
-  color: #525252;
-  margin: 0;
-}
-
-#newsletter .submit-button {
-  margin-top: 6%;
-  padding: 1rem 3.5rem;
-
-}
-
-#newsletter {
-  padding: 4% 7%;
-  background-color: rgb(179, 169, 142, 0.07);
-  text-align: center;
-}
-
-/* Thank You Page */
-
-.thank-you {
-  font-size: 2rem;
-  text-align: center;
-  color: var(--dark-beige);
-  padding: 17% 15%;
-}
-
-.thank-you-form {
-  padding-top: 17%;
-  font-size: 2rem;
-  text-align: center;
-  color: var(--dark-beige);
-}
-
-#thank-you p {
-  text-align: center;
-  max-width: 100%;
-  margin-top: 1%;
-  margin-bottom: 10%;
-  width: 100%;
-}
-
 
 /* Footer */
 footer {
@@ -375,79 +208,6 @@ footer .logo {
   text-decoration: none;
 }
 
-/* Images as links */
-
-.image-link:hover {
-  opacity: 0.4;
-  transition: 0.3s;
-}
-
-/* Arrow Button */
-
-
-.arrow-button {
-  color: var(--dark-beige);
-  margin-bottom: 1em;
-  position: relative;
-  display: inline-block;
-  text-decoration: none;
-  max-width: 100%;
-  width: 100%;
-  margin-top: 5%;
-  text-align: right;
-}
-
-.arrow-button svg path {
-  width: 50%;
-  fill: var(--accent-red);
-
-}
-
-.arrow-button svg {
-  margin-left: 3%;
-}
-
-.arrow {
-  text-decoration: none;
-  color: var(--accent-red);
-}
-
-.arrow:hover, .arrow:focus {
-    color: var(--dark-beige);
-}
-
-.arrow-button:hover .arrow-svg path {
-  fill: var(--dark-beige);
-}
-
-
-
-
-/* 
-  INTERACTIVE ELEMENTS -------------------
-*/
-
-#interactive_elements {
-  margin-top: 22%;
-}
-
-.section-intro {
-  margin-bottom: 6%;
-  margin-top: 2%;
-
-}
-/* Styling for the in-text link */
-.text-link {
-  color: var(--blue);
-  transition: color 0.4s ease;
-}
-
-.text-link:hover,
-.text-link:focus {
-  text-decoration: none;
-  color: var(--blue);
-}
-
 /* Styling for the navigation button */
 .button-nav {
   display: inline-block;
@@ -460,492 +220,343 @@ footer .logo {
   color: var(--accent-red);
 }
 
-/* Styling for the submit button */
-.submit-button {
-  border-width:0;
-  padding: 1rem 2.5rem;
-  background-color: var(--accent-red);
-  border-radius: 5px;
-  font-size: 1.1rem;
-  text-decoration: none;
-  color: var(--white-cream);
-  transition: background-color 0.5s ease;
+::selection {
+  background-color: var(--pale-blue); /* Adjust the color code as needed */
 }
 
-.submit-button:hover, .submit-button:focus {
-  text-decoration: none;
-  cursor: pointer;
-  background-color: var(--dark-beige);
+
+
+/* STYLE GUIDE */
+
+.style-h1 {
+  padding-top: 40%;
+  padding-bottom: 2%;
+  text-align: center;
 }
 
-/* Styling for the reset button */
-.reset-button {
-  font-size: 1.1rem;
-  padding: 1rem 2.5rem;
-  border: 1px solid var(--accent-red);
-  border-radius: 5px;
-  text-decoration: none;
-  color: var(--accent-red);
-  transition: background-color 0.5s ease;
-}
-
-.reset-button:hover, .reset-button:focus {
-  text-decoration: none;
-  background-color: var(--accent-red);
-  color: var(--white-cream);
-}
-
-/* Styling for arrow button */
-
-.element .arrow-button {
-  text-align: left;
-  margin: 0;
-}
-
-.element .arrow-button svg {
-    margin-left: 1%;
-  }
-
-  .product-info .arrow-button {
-    text-align: right;
-  }
-
-/* Styling for the input and label */
-.input-box {
-  display: block;
-  position: relative;
-  outline: none;
-  width: 20%;
-}
-
-.input-box.focused label {
-  transition: top 0.2s ease;
-  top: -50%;
-} 
-
-.input-box label {
-  position: relative;
-  white-space: nowrap;
-  overflow: hidden;
-  font-size: 1em;
+.banner-icon1 {
   position: absolute;
-  top: 0px;
-  display: inline-block;
-  background: var(--white-cream);
-  margin: 8px 5px;
-  line-height: 1.4em;
-  padding: 0 1%;
-  transition: all .2s linear;
-  text-transform: capitalize;
+  width: 5%;
+  top: 40%;
+  right: 88%;
 }
 
-input[type="text"] {
-  padding: 10px;
-  width: 100%;
-  border: 1px solid #AFA69B;
-  border-radius: 5px;
-  background-color: var(--white-cream);
+.banner-icon2 {
+  position: absolute;
+  width: 5%;
+  top: 72%;
+  left: 90%;
 }
 
-input[type="text"]:focus, input[type="text"]:hover  {
-  outline: none !important;
-  border: 1px solid var(--accent-red); 
-}
-
-/* Styling for the radio button */
-
-ul.radio {
-  list-style: none;
+.banner {
   margin: 0;
-  padding: 0;
+  padding: 0 25rem;
+  text-align: center;
 }
 
-li.radio-list {
-  margin-bottom: 1%;
+.banner p {
+  color: var(--grey);
+  max-width: 100%;
+  font-size: 1.2rem;
+  text-align: center;
 }
 
-.radio-text {
-  margin-bottom: 1%;
+.highlight {
+  color: var(--blue);
+}
+.element {
+  padding-bottom: 5rem;
+  padding-top: 3rem;
 }
 
-#cake {
-  margin-right: 1%;
+.element h3 {
+  margin-bottom: 2%;
+}
+.element h4 {
+  margin-bottom: 2%;
+  margin-top: 2.4%;
 }
 
-input[type="radio"] {
-  transform: scale(1.5);
-}
-
-input[type="radio"]:checked {
-  accent-color: black;
-}
-
-
-/* Styling for the image */
-.cakes {
-  width: 50%;
+code {
+  background-color: var(--pale-blue);
+  padding: 0.6rem;
   display: block;
-  transition: transform 0.3s ease;
+  color:#8f8f98;
+  max-width: 70%;
+}
+
+/* Visual Identity */
+
+#visual_identity {
+  margin-top: 15%;
+  padding: 1rem 7rem;
+  border-top: solid 0.01rem var(--blue);
+}
+
+
+.visual-h2 {
+  color: var(--grey);
+  margin-top: 10%;
+  margin-bottom: 6%;
+}
+
+.letters {
+  font-size: 15rem;
+  margin:0;
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  color: var(--blue);
+
+}
+.name {
+  font-size: 3rem;
+  margin:0;
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  color: var(--blue);
+}
+
+.font-weight p {
+    font-size: 3rem;
+}
+
+.typography-box {
+  border: 0.01rem solid var(--blue);
   border-radius: 8px;
+  margin-bottom: 5%;
 }
 
-.img-link {
-  display: inline-block;
-  position: relative;
-  overflow: hidden; 
-  max-width: 40%;
+.typography-title {
+  padding: 3% 3%;
 }
 
-.img-link:hover, .img-link:focus {
+.font-info {
+  padding: 1% 7%;
+}
+
+.typography {
+  display: flex;
+  align-items: baseline;
+  gap: 5%;
+}
+
+h1.headings {
+  font-size: 5rem;
+  margin-top: 2%;
+  margin-bottom: 1.7%;
+}
+
+h2.brand-headings {
+  font-size: 4rem;
+  margin-top: 0;
+  margin-bottom: 1.7%;
+}
+
+h3.headings {
+  font-size: 3rem;
+  margin-top: 0;
+  margin-bottom: 1.7%;
+  color: var(--grey);
+
+}
+
+h4.headings {
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 6%;
+  color: var(--grey);
+}
+
+
+.p-letters {
+  font-size: 15rem;
+  margin:0;
+}
+
+.p-font-name {
+  flex: 0 1 auto;
+}
+.p-name {
+  font-size: 3rem;
+  margin:0;
+  white-space: nowrap;
+}
+
+.p-font-weight p {
+    font-size: 3rem;
+}
+
+.brand-p {
+  margin-bottom: 2%;
+}
+
+.paragraph-example {
+  margin-bottom: 6%;
+}
+
+
+/* Colours */
+
+.colours {
+  display: flex;
+  margin-bottom: 10%;
+}
+
+.colours-el {
+  flex: 1 1 auto;
+}
+
+.colours-el p {
+  width: 75%;
+  text-align: center;
+}
+
+.beige {
+  padding: 20%;
+  background-color: var(--beige);
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 2%;
+}
+
+.blue {
+  padding: 20%;
+  background-color: var(--blue);
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 2%;
+}
+
+.grey {
+  padding: 20%;
+  background-color: var(--grey);
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 2%;
+}
+
+.pale-blue {
+  padding: 20%;
+  background-color: var(--pale-blue);
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 2%;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 4%;
+  margin-bottom: 7%;
+}
+
+.logo-big {
+  width: 50%;
+}
+
+.logo-small {
+  width: 16%;
+}
+
+.logo-h2 {
+  color: var(--grey);
+  margin-bottom: 2%;
+}
+
+.blue-decor {
+  margin-top: 3%;
+  margin-bottom: 7%;
+  width: 30%;
+}
+
+/* Style Guide Nav */
+
+.main-nav-style {
+  display: flex;
+  flex-direction: row;
+  gap: 4%;
+  flex: 2;
+  justify-content: flex-end;
+  padding: 2% 5%;
+}
+
+.main-nav-style a{
+  font-size: 0.9rem;
+  text-align: center;
+  text-decoration: none;
+  color: var(--blue);
+  text-decoration: none;
+  transition: color 0.5s;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.main-nav-style a:hover,.main-nav a:focus {
+  color: var(--grey);
+}
+
+.logo-link-style {
+  transition: 0.5s ease;
+  padding-left: 5%;
+  width: 8%;
+}
+
+.logo-link-style:hover, .logo-link-style:focus {
+  transform: scale(1.1);
+}
+
+/* Interactive Elements */
+
+#interactive_elements {
+  border-top: solid 0.01rem var(--blue);
+  margin-top: 5%;
+  padding: 1rem 7rem;
+}
+
+.interactive-h2 {
+  color: var(--grey);
+  margin-top: 6%;
+  margin-bottom: 2%;
+}
+
+/* Images as links */
+
+.image-link:hover {
   opacity: 0.4;
   transition: 0.3s;
 }
 
-
-/* 
-  TEXT ELEMENTS -------------------
-*/
-
-.text-el {
-  margin-top: 4%;
-}
-
-/* Styling for the headings */
-h1.headings {
-  font-size: 4rem;
+.section-intro {
+  margin-bottom: 6%;
   margin-top: 2%;
-  margin-bottom: 1%;
-}
 
-h2.headings {
-  font-size: 3rem;
-  margin-top: 0;
 }
-
-h3.headings {
-  font-size: 2rem;
-  margin-top: 0;
-  margin-bottom: 1.3%;
-}
-
-h4.headings {
-  font-size: 1.4rem;
-  margin-top: 0;
-}
-/* 
-  COMBINED ELEMENTS -------------------
-*/
-
-#combined_elements h2 {
-  margin-top: 4%;
-}
-
-/* Styling for the main navigation */
-.main-nav {
-  display: flex;
-  flex-direction: row;
-  font-size: 1.1rem;
-  gap: 7%;
-  flex: 2;
-  justify-content: flex-end;
-  padding: 1.4% 5%;
-}
-
-.main-nav a{
-  font-size: 1.1rem;
-  text-align: center;
+/* Styling for the in-text link */
+.text-link {
+  color: var(--blue);
+  cursor: pointer;
+  transition: color 0.4s ease;
   text-decoration: none;
-  color: var(--dark-grey);
-  text-decoration: none;
-  transition: color 0.5s;
-  display: flex;
-  align-items: center;
-  margin: 0;
-}
-
-.main-nav a:hover,.main-nav a:focus {
-  color: var(--accent-red);
-}
-
-.cart {
-  border-radius: 100%;
-  width: 1.8rem;
-  height: 1.8rem;
-  padding: 0.5rem;
-  background-color: #fff0;
-  border: 1px solid var(--accent-red);
 }
 
 
-.cart:hover .cart-svg path, 
-.cart:focus .cart-svg path {
-  fill: #FEFCF8; /* Color on hover and focus */
-}
+.text-link:hover,
+.text-link:focus {
+  color: var(--blue);
+  text-decoration-style: wavy;
 
-.cart:hover {
-  background-color: var(--accent-red); /* Background color on hover */
-}
-
-.cart-svg {
-  max-width: 100%;
-  width: 90%;
-}
-
-.cart-svg path {
-  fill: var(--accent-red);
-}
-
-.sub-nav .sub-nav-button:hover {
-    color: var(--accent-red);
-}
-
-.sub-nav .sub-nav-button {
-  display: flex;
-  align-items: center;
-  font-size: 1.2rem;
-  border: none;
-  outline: none;
-  transition: color 0.5s;
-  color: var(--dark-grey);
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.sub-nav .sub-nav-button i {
-  margin-left: 5px; 
-}
-
-.sub-nav-content {
-  display: none;
-  max-width: 100%;
-  width: 10%;
-  position: absolute;
-  z-index: 1;
-  padding: 1% 0.5%;
-}
-
-.sub-nav-content a {
-  color: #FEFCF8;
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 6% 6%;
-}
-
-.sub-nav-content a:hover {
-  color: var(--accent-red);
-}
-.sub-nav:hover .sub-nav-content {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--dark-beige);
-}
-
-/* Styling for the product listing */
-
-
-.product-box {
-  display: flex;
-  flex-direction: column;
-  border-radius: 10px;
-  width: 40%;
-  max-width: 100%;
-  background-color: rgb(255, 189, 21,0.03);
-  padding: 2% 4%;
-  transition: background-color .25s linear;
-  margin-bottom: 2rem;
-}
-
-.element .product-box {
-  width: 20%;
-  padding: 1% 2%;
-}
-
-.product-box:hover {
-  background-color: rgb(255, 189, 21,0.07);
-}
-
-.product-box h2 {
-  font-size: 1.7rem;
-}
-
-.product-box p {
-  font-size: 0.9rem;
-  margin-bottom: 5%;
-}
-
-.product-box h3 {
-  font-size: 1.3rem;
-  margin:0;
-  color: rgb(60, 60, 60,0.6);
-  margin-bottom: 5%;
-}
-
-.product-img {
-  max-width: 100%;
-  border-radius: 5px;
-}
-
-.product-text {
-  max-width: 100%;
-  margin-bottom: 3%;
 }
 
 
-
-.product-buttons {
-  text-align: right;
-}
-
-/* Styling for the payment form */
-.payment-box {
-  display: flex;
-  flex-direction: column;
-}
-
-.payment-box {
-  margin-top: 1%;
-}
-
-.payment-box div {
-  margin-top: 1.4%;
-}
-
-.payment-text {
-  color: #a3a3a3;
-  margin-top: 0;
-}
-
-.method {
-  margin-top: 2%;
-  margin-bottom: 1.4%;
-}
-
-.credit {
-  margin-bottom: 0.5%;
-}
-
-.payment-el input[type="radio"] {
-  margin-right: 1%;
-}
-
-.payment-box .input-box label[for="cvv"] + .text-field-input {
-  margin-bottom: 10%;
-}
-
-/* Styling for the checkout cart */
-
-.checkout-box {
-  display: flex;
-  flex-direction: row;
-}
-.checkout-box img {
-  max-width: 100%;
-  width: 20%;
-  height: auto;
-  margin-right: 2%;
-  border-radius: 5px;
-}
-
-.checkout-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.checkout-description {
-  color: #a3a3a3;
-  font-size: 0.8rem;
-}
-
-.checkout-button {
-  margin-top: 5%;
-}
-
-/* 
-  BRANDING IDEAS -------------------
-*/
-#branding_ideas h2 {
-  margin-top: 5%;
-  margin-bottom: 3%;
-}
-
-#branding_ideas p {
-  margin-bottom: 3%;
-}
-
-.brand-headings {
-  margin-top: 0;
-  font-size: 3rem;
-}
-
-#brand_components h1 {
-  margin-top: 5%;
-  margin-bottom: 1%;
-}
-
-h2.brand-components {
-  margin-top: 5%;
-}
-
-.brand-p {
-  margin-bottom: 3%;
-}
-
-.color-palette {
-  margin-top: 5%;
-}
-
-.white-cream {
-  padding: 4%;
-  background-color: var(--white-cream);
-  border: 1px solid black;
-}
-
-.accent-red {
-  margin-top: 2%;
-  padding: 4%;
-  background-color: var(--accent-red);
-  border: 1px solid black;
-}
-
-.accent-red p {
-  color: white;
-}
-
-.dark-beige {
-  margin-top: 2%;
-  padding: 4%;
-  background-color: var(--dark-beige);
-  border: 1px solid black;
-}
-
-.grey-black {
-  margin-top: 2%;
-  padding: 4%;
-  background-color: var(--dark-grey);
-  border: 1px solid black;
-  margin-bottom: 4%;
-}
-.grey-black p {
-  color: white;
-}
-
-.art-direction {
-  margin-top: 5%;
-}
-
-.image-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 16px;
-  margin-bottom: 4%;
-}
-
-.image-grid img {
-  width: 100%;
-  height: auto;
-  border-radius: 8px;
-}
 
 @media screen and (max-width: 80em) {
 
@@ -1000,11 +611,6 @@ h2.brand-components {
   }
 
 
-  #newsletter {
-    padding: 10% 10%;
-  }
-
-
 }
 
 @media screen and (max-width: 45em) {
@@ -1020,32 +626,6 @@ h2.brand-components {
   .mobile-nav-links > a:nth-child(2) {
     margin-top: 25%;
   } 
-
-  .breadcrumbs {
-    margin-top: 30%;
-  }
-
-
-
-  #newsletter {
-    padding: 20% 10%;
-  }
-
-  .thank-you {
-    padding: 45% 5%;
-
-  }
-
-  .thank-you-form {
-    padding-top: 45%;
-    font-size: 3rem;
-    margin:0;
-    margin-bottom: 5%;
-  }
-
-  #thank-you p {
-    margin-bottom: 30%;
-  }
 
 }
 
@@ -1075,14 +655,6 @@ h2.brand-components {
 
   .copyright {
     margin-bottom: 5%;
-  }
-
-  .cart-svg {
-    width: 20%;
-  }
-
-  .cart-svg path {
-    fill: #FEFCF8;
   }
 
 }
