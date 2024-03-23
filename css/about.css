@@ -13,7 +13,7 @@
 .about-h1 {
   padding-top: 18%;
   padding-bottom: 5%;
-  font-size: 4rem;
+  font-size: 3.6rem;
 }
 
 .about-box {
@@ -25,11 +25,12 @@
 
 .about-image {
   max-width: 100%;
-  width: 36%;
+  width: 38%;
   border-radius: 5px;
   border: solid 0.01rem var(--blue);
 }
 
 .about-content  p {
   margin-bottom: 2%;
+  font-size: 1.1rem;
 }
