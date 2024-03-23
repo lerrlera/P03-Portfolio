@@ -265,7 +265,6 @@ footer .logo {
   color: var(--blue);
 }
 .element {
-  padding-bottom: 5rem;
   padding-top: 3rem;
 }
 
@@ -466,15 +465,28 @@ h4.headings {
   width: 16%;
 }
 
-.logo-h2 {
+.section-h2 {
   color: var(--grey);
   margin-bottom: 2%;
 }
 
 .blue-decor {
   margin-top: 3%;
-  margin-bottom: 7%;
+  margin-bottom: 10%;
   width: 30%;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  margin-bottom: 4%;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 /* Style Guide Nav */
@@ -541,21 +553,81 @@ h4.headings {
 
 }
 /* Styling for the in-text link */
+
 .text-link {
+  
   color: var(--blue);
-  cursor: pointer;
-  transition: color 0.4s ease;
+  padding-bottom: .25em;
   text-decoration: none;
 }
 
-
-.text-link:hover,
-.text-link:focus {
-  color: var(--blue);
-  text-decoration-style: wavy;
-
+.text-link:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%231E74DA' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: auto 0.2rem;
+  border-bottom: 0;
+  padding-bottom: .2em;
+  text-decoration: none;
 }
 
+#citations {
+  padding: 1% 7%;
+  border-top: solid 0.01rem var(--blue);
+}
+
+.main-nav-style a{
+  font-size: 0.9rem;
+  text-align: center;
+  text-decoration: none;
+  color: var(--blue);
+  text-decoration: none;
+  transition: color 0.5s;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.nav {
+  text-decoration: none;
+  color: var(--blue);
+  font-size: 0.9rem;
+  transition: color 0.5s;
+}
+
+.nav:hover,.nav:focus {
+  color: var(--grey);
+}
+
+.viff {
+  max-width: 100%;
+  width: 100%;
+  border: solid 0.01rem var(--blue);
+  display: block;
+  height: auto;
+}
+
+.img-link {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--blue);
+    opacity: 0; 
+    transition: opacity 0.5s ease;
+}
+
+.img-link:hover .overlay {
+    opacity: 0.7; 
+}
 
 
 @media screen and (max-width: 80em) {
