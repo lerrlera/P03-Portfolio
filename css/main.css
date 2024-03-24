@@ -45,6 +45,7 @@ p {
   margin: 0;
   color: var(--grey);
   max-width: 75%;
+  line-height: 160%;
 }
 
 .logo-style {
@@ -71,6 +72,11 @@ p {
   width: 48%;
   margin-right: 1%;
   margin-top: 6%;
+}
+
+.caption {
+  color: #9C9C9C;
+  margin:0;
 }
 
 .logo-link {

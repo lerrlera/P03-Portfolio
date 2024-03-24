@@ -21,8 +21,8 @@
 
 
 .home-banner {
-  margin: 0;
   padding: 2rem 10rem;
+  margin-bottom: 9%;
 }
 
 .home-banner p {
@@ -31,4 +31,34 @@
   width: 70%;
   font-size: 1.4rem;
   margin-top: 2%;
+}
+
+.work-box {
+  display: flex;
+  gap: 2%;
+  margin-top: 4%;
+}
+
+#main {
+  padding: 7rem 9rem;
+  border-top: solid 0.01rem var(--blue);
+}
+
+.img-link {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.link-box {
+  display: flex;
+}
+
+.project-title {
+  margin: 0;
+  color: var(--grey);
+  margin-right: 10%;
+}
+
+.text-link {
+  margin-top: 1.3%;
 }
