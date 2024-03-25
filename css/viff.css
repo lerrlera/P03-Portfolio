@@ -1,87 +1,14 @@
 /* Project 1 VIFF CSS */
 
-.project-img {
-	margin-top: 10%;
-	max-width: 100%;
-	max-width: 100%;
-}
-
-.project-banner-icon1 {
-  	position: absolute;
-  	width: 5%;
-  	top: 17%;
-  	right: 90%;
-}
-
-.project-banner-icon2 {
-	position: absolute;
-  	width: 5%;
-  	top: 100%;
-  	left: 92%;
-}
-
-h1 {
-	text-align: center;
-	font-size: 4rem;
-}
-
-h4 {
-	color: var(--grey);
-	text-align: center;
-	margin-top: 1%;
-	color: var(--blue);
-}
-
-h5 {
-	font-size: 1.3rem;
-	font-weight: 400;
-	font-family: 'Fraunces', serif;
-	margin-bottom: 1%;
-	color: var(--blue);
-}
-
-.project-info {
-	padding: 1rem 7rem;
-	margin-top: 2%;
-	display: flex;
-	white-space: nowrap;
-	gap: 12%;
-	justify-content: center;
-	margin-bottom: 7%;
-}
 
 #overview, #final, #client, #research, #passport, #art, #mockups, #takeaways {
 	border-top: solid 0.01rem var(--blue);
 	padding: 6rem 14rem;
 }
 
-.project-content {
-	margin-top: 4%;
-	margin-bottom: 4%;
-	max-width: 90%;
-
-}
-
-.subtitle {
-	text-align: left;
-	color: var(--grey);
-	margin-bottom: 1%;
-}
 
 #final h2 {
 	margin-bottom: 4%;
-}
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two columns */
-  gap: 17px;
-  margin-bottom: 4%;
-}
-
-.product-grid img {
-  width: 100%;
-  height: auto;
 }
 
 
@@ -91,15 +18,6 @@ h5 {
 	width: 90%;
 }
 
-.highlight-content {
-	margin-top: 4%;
-	margin-bottom: 4%;
-	max-width: 90%;
-	font-size: 1.2rem;
-	color: var(--blue);
-
-}
-
 .museum {
 	margin-top: 5%;
 	width: 50%;
@@ -107,10 +25,6 @@ h5 {
 
 .sitemap {
 	width: 80%;
-}
-
-.h3-title {
-	margin-top: 5%;
 }
 
 .moodboard {
