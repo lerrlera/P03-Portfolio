@@ -5,24 +5,25 @@
 
 /* Colors */
 :root {
-  --beige: #FAF6EC; 
   --blue: #1E74DA; 
-  --grey: #313131; 
-  --pale-blue: #DDE5EA;
+  --grey: #5E5E5E; 
+  --green: #6E8F6D;
+  --light-grey: #C7C7C7;
+  --light-green: #D1D8D1;
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
-  background-color: var(--beige);
+  background-color: white;
   margin: 0;
 }
 
 h1,h2,h3,h4 {
-  font-family: 'Fraunces', serif;
-  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
   margin: 0;
-  color: var(--blue);
+  color: black;
 }
 
 h1 {
@@ -51,7 +52,7 @@ p {
 .logo-style {
   max-width: 100%;
   height: auto;
-  width: 5%;
+  width: 15%;
   margin-right: 1%;
 }
 
@@ -61,9 +62,9 @@ p {
   position: fixed;
   max-width: 100%;
   width: 100%;
-  background-color: var(--beige);
+  background-color: white;
   z-index: 2;
-  border-bottom: solid 0.01rem var(--blue);
+  border-bottom: solid 0.01rem var(--light-green);
 }
 
 .logo {
@@ -71,7 +72,7 @@ p {
   height: auto;
   width: 48%;
   margin-right: 1%;
-  margin-top: 6%;
+  margin-top: 3%;
 }
 
 .caption {
@@ -227,7 +228,7 @@ footer .logo {
 }
 
 ::selection {
-  background-color: var(--pale-blue); /* Adjust the color code as needed */
+  background-color: #D0DAD0; 
 }
 
 
@@ -235,41 +236,23 @@ footer .logo {
 /* STYLE GUIDE */
 
 .style-h1 {
-  padding-top: 40%;
-  padding-bottom: 2%;
-  text-align: center;
-}
-
-.banner-icon1 {
-  position: absolute;
-  width: 5%;
-  top: 40%;
-  right: 88%;
-}
-
-.banner-icon2 {
-  position: absolute;
-  width: 5%;
-  top: 72%;
-  left: 90%;
+  padding-top: 20%;
+  padding-bottom: 1%;
+  font-size: 8rem;
+  color: var(--green);
 }
 
 .banner {
   margin: 0;
-  padding: 0 25rem;
-  text-align: center;
+  padding: 0 5rem;
 }
 
 .banner p {
   color: var(--grey);
-  max-width: 100%;
+  max-width: 80%;
   font-size: 1.2rem;
-  text-align: center;
 }
 
-.highlight {
-  color: var(--blue);
-}
 .element {
   padding-top: 3rem;
 }
@@ -283,7 +266,7 @@ footer .logo {
 }
 
 code {
-  background-color: var(--pale-blue);
+  background-color: #E1EEE1;
   padding: 0.6rem;
   display: block;
   color:#8f8f98;
@@ -295,7 +278,7 @@ code {
 #visual_identity {
   margin-top: 15%;
   padding: 1rem 7rem;
-  border-top: solid 0.01rem var(--blue);
+  border-top: solid 0.01rem var(--light-green);
 }
 
 
@@ -310,7 +293,7 @@ code {
   margin:0;
   font-family: 'Fraunces', serif;
   font-weight: 400;
-  color: var(--blue);
+  color: var(--green);
 
 }
 .name {
@@ -318,7 +301,7 @@ code {
   margin:0;
   font-family: 'Fraunces', serif;
   font-weight: 400;
-  color: var(--blue);
+  color: var(--green);
 }
 
 .font-weight p {
@@ -326,7 +309,7 @@ code {
 }
 
 .typography-box {
-  border: 0.01rem solid var(--blue);
+  border: 0.01rem solid var(--light-green);
   border-radius: 8px;
   margin-bottom: 5%;
 }
@@ -428,8 +411,8 @@ h4.headings {
 
 .blue {
   padding: 20%;
-  background-color: var(--blue);
-  border: 1px solid black;
+  background-color: var(--green);
+  border: 1px solid var(--light-green);
   border-radius: 100%;
   width: 100px;
   height: 100px;
@@ -439,7 +422,7 @@ h4.headings {
 .grey {
   padding: 20%;
   background-color: var(--grey);
-  border: 1px solid black;
+  border: 1px solid var(--light-green);
   border-radius: 100%;
   width: 100px;
   height: 100px;
@@ -449,7 +432,7 @@ h4.headings {
 .pale-blue {
   padding: 20%;
   background-color: var(--pale-blue);
-  border: 1px solid black;
+  border: 1px solid var(--light-green);
   border-radius: 100%;
   width: 100px;
   height: 100px;
@@ -507,10 +490,10 @@ h4.headings {
 }
 
 .main-nav-style a{
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-align: center;
   text-decoration: none;
-  color: var(--blue);
+  color: black;
   text-decoration: none;
   transition: color 0.5s;
   display: flex;
@@ -519,13 +502,13 @@ h4.headings {
 }
 
 .main-nav-style a:hover,.main-nav a:focus {
-  color: var(--grey);
+  color: var(--green);
 }
 
 .logo-link-style {
   transition: 0.5s ease;
   padding-left: 5%;
-  width: 8%;
+  width: 17%;
 }
 
 .logo-link-style:hover, .logo-link-style:focus {
@@ -535,7 +518,7 @@ h4.headings {
 /* Interactive Elements */
 
 #interactive_elements {
-  border-top: solid 0.01rem var(--blue);
+  border-top: solid 0.01rem var(--light-green);
   margin-top: 5%;
   padding: 1rem 7rem;
 }
@@ -562,7 +545,7 @@ h4.headings {
 
 .text-link {
   
-  color: var(--blue);
+  color: var(--green);
   padding-bottom: .25em;
   text-decoration: none;
 }
@@ -579,25 +562,27 @@ h4.headings {
 
 #citations {
   padding: 1% 7%;
-  border-top: solid 0.01rem var(--blue);
+  border-top: solid 0.01rem var(--light-green);
 }
 
 .main-nav-style a{
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-align: center;
   text-decoration: none;
-  color: var(--blue);
+  color: black;
   text-decoration: none;
   transition: color 0.5s;
   display: flex;
   align-items: center;
+  font-weight: 300;
+
   margin: 0;
 }
 
 .nav {
   text-decoration: none;
-  color: var(--blue);
-  font-size: 0.9rem;
+  color: var(--green);
+  font-size: 1rem;
   transition: color 0.5s;
 }
 
@@ -608,7 +593,7 @@ h4.headings {
 .viff {
   max-width: 100%;
   width: 100%;
-  border: solid 0.01rem var(--blue);
+  border: solid 0.01rem var(--light-green);
   display: block;
   height: auto;
 }
@@ -626,7 +611,7 @@ h4.headings {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--blue);
+    background-color: var(--green);
     opacity: 0; 
     transition: opacity 0.5s ease;
 }
