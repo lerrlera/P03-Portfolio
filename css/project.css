@@ -6,19 +6,6 @@
 	max-width: 100%;
 }
 
-.project-banner-icon1 {
-  	position: absolute;
-  	width: 5%;
-  	top: 17%;
-  	right: 90%;
-}
-
-.project-banner-icon2 {
-	position: absolute;
-  	width: 5%;
-  	top: 100%;
-  	left: 92%;
-}
 
 h1 {
 	text-align: center;
@@ -29,15 +16,12 @@ h4 {
 	color: var(--grey);
 	text-align: center;
 	margin-top: 1%;
-	color: var(--blue);
 }
 
 h5 {
 	font-size: 1.3rem;
-	font-weight: 400;
-	font-family: 'Fraunces', serif;
+	font-weight: 300;
 	margin-bottom: 1%;
-	color: var(--blue);
 }
 
 .project-info {
@@ -73,6 +57,7 @@ h5 {
 .product-grid img {
   width: 100%;
   height: auto;
+  border: solid 0.01rem var(--purple) ;
 }
 
 
@@ -81,8 +66,6 @@ h5 {
 	margin-bottom: 4%;
 	max-width: 90%;
 	font-size: 1.2rem;
-	color: var(--blue);
-
 }
 
 
@@ -90,3 +73,19 @@ h5 {
 	margin-top: 5%;
 }
 
+.next-box {
+	display: flex;
+	flex-direction: column;
+	margin-top: 15%;
+	margin-left: auto;
+  text-align: right; 
+   width: fit-content; 
+
+}
+
+.next-box .text-link {
+	margin-top: 2%;
+  display: inline-block;
+  max-width: 100%; 
+
+}

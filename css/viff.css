@@ -1,8 +1,8 @@
 /* Project 1 VIFF CSS */
 
 
-#overview, #final, #client, #research, #passport, #art, #mockups, #takeaways {
-	border-top: solid 0.01rem var(--blue);
+#overview, #final, #client, #research, #passport, #design, #feedback, #art, #mockups, #takeaways {
+	border-top: solid 0.01rem var(--light-purple);
 	padding: 6rem 14rem;
 }
 
@@ -35,5 +35,16 @@
 .mockups {
 	width: 100%;
 	margin-bottom: 2%;
+	border: solid 0.01rem var(--purple);
 }
 
+.lp {
+	margin-top: 1%;
+	width: 100%;
+	border: solid 0.01rem var(--purple);
+}
+.lp-2 {
+	margin-top: 5%;
+	width: 100%;
+	border: solid 0.01rem var(--purple);
+}

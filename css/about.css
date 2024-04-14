@@ -11,7 +11,7 @@
 }
 
 .about-h1 {
-  padding-top: 18%;
+  padding-top: 12%;
   padding-bottom: 5%;
   font-size: 3.6rem;
 }
@@ -26,8 +26,6 @@
 .about-image {
   max-width: 100%;
   width: 38%;
-  border-radius: 5px;
-  border: solid 0.01rem var(--blue);
 }
 
 .about-content  p {

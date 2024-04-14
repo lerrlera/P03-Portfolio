@@ -7,9 +7,9 @@
 :root {
   --blue: #1E74DA; 
   --grey: #5E5E5E; 
-  --green: #6E8F6D;
+  --purple: #7371F8;
   --light-grey: #C7C7C7;
-  --light-green: #D1D8D1;
+  --light-purple: #C7C7F8;
 }
 
 body {
@@ -17,6 +17,7 @@ body {
   font-weight: 200;
   background-color: white;
   margin: 0;
+  font-size: 1.1rem;
 }
 
 h1,h2,h3,h4 {
@@ -64,7 +65,7 @@ p {
   width: 100%;
   background-color: white;
   z-index: 2;
-  border-bottom: solid 0.01rem var(--light-green);
+  border-bottom: solid 0.01rem var(--light-purple);
 }
 
 .logo {
@@ -143,7 +144,7 @@ p {
 /* Footer */
 footer {
   padding: 3% 6%;
-  border-top: solid 0.01rem var(--light-green);
+  border-top: solid 0.01rem var(--light-purple);
 }
 
 .footer-box {
@@ -227,7 +228,7 @@ footer h3 {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-color: var(--green);
+  background-color: var(--purple);
   opacity: 50%;
   position: absolute;
   pointer-events: none;
@@ -273,7 +274,7 @@ footer h3 {
 }
 
 code {
-  background-color: #E1EEE1;
+  background-color: #F3F3FF;
   padding: 0.6rem;
   display: block;
   color:#8f8f98;
@@ -285,7 +286,7 @@ code {
 #visual_identity {
   margin-top: 15%;
   padding: 1rem 7rem;
-  border-top: solid 0.01rem var(--light-green);
+  border-top: solid 0.01rem var(--light-purple);
 }
 
 
@@ -316,7 +317,7 @@ code {
 }
 
 .typography-box {
-  border: 0.01rem solid var(--light-green);
+  border: 0.01rem solid var(--light-purple);
   border-radius: 8px;
   margin-bottom: 5%;
 }
@@ -406,12 +407,13 @@ h4.headings {
 .colours-el p {
   width: 75%;
   text-align: center;
+  margin-left: 8%;
 }
 
 .white {
   padding: 20%;
   background-color: white;
-  border: 1px solid var(--light-green);
+  border: 1px solid var(--light-purple);
   border-radius: 100%;
   width: 100px;
   height: 100px;
@@ -419,10 +421,10 @@ h4.headings {
 }
 
 
-.green {
+.purple {
   padding: 20%;
-  background-color: var(--green);
-  border: 1px solid var(--light-green);
+  background-color: var(--purple);
+  border: 1px solid var(--light-purple);
   border-radius: 100%;
   width: 100px;
   height: 100px;
@@ -432,7 +434,7 @@ h4.headings {
 .grey {
   padding: 20%;
   background-color: var(--grey);
-  border: 1px solid var(--light-green);
+  border: 1px solid var(--light-purple);
   border-radius: 100%;
   width: 100px;
   height: 100px;
@@ -442,7 +444,7 @@ h4.headings {
 .light-grey {
   padding: 20%;
   background-color: var(--light-grey);
-  border: 1px solid var(--light-green);
+  border: 1px solid var(--light-purple);
   border-radius: 100%;
   width: 100px;
   height: 100px;
@@ -450,10 +452,10 @@ h4.headings {
 }
 
 
-.light-green {
+.light-purple {
   padding: 20%;
-  background-color: var(--light-green);
-  border: 1px solid var(--light-green);
+  background-color: var(--light-purple);
+  border: 1px solid var(--light-purple);
   border-radius: 100%;
   width: 100px;
   height: 100px;
@@ -465,7 +467,7 @@ h4.headings {
 .black {
   padding: 20%;
   background-color: black;
-  border: 1px solid var(--light-green);
+  border: 1px solid var(--light-purple);
   border-radius: 100%;
   width: 100px;
   height: 100px;
@@ -489,7 +491,7 @@ h4.headings {
 }
 
 .section-h2 {
-  color: var(--grey);
+  color: black;
   margin-bottom: 2%;
 }
 
@@ -512,12 +514,17 @@ h4.headings {
   border-radius: 8px;
 }
 
+.bold {
+  font-weight: 300;
+  color: black;
+}
+
 /* Style Guide Nav */
 
 .main-nav-style {
   display: flex;
   flex-direction: row;
-  gap: 4%;
+  gap: 6%;
   flex: 2;
   justify-content: flex-end;
   padding: 2% 5%;
@@ -536,7 +543,7 @@ h4.headings {
 }
 
 .main-nav-style a:hover,.main-nav a:focus {
-  color: var(--green);
+  color: var(--purple);
 }
 
 .logo-link-style {
@@ -552,7 +559,7 @@ h4.headings {
 /* Interactive Elements */
 
 #interactive_elements {
-  border-top: solid 0.01rem var(--light-green);
+  border-top: solid 0.01rem var(--light-purple);
   margin-top: 5%;
   padding: 1rem 7rem;
 }
@@ -579,13 +586,13 @@ h4.headings {
 
 .text-link {
   
-  color: var(--green);
+  color: var(--purple);
   padding-bottom: .25em;
   text-decoration: none;
   font-weight: 300;
 }
 .text-link:hover {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%236E8F6D' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%23C7C7F8' stroke-width='1' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
   background-position: bottom;
   background-repeat: repeat-x;
   background-size: auto 0.2rem;
@@ -597,7 +604,8 @@ h4.headings {
 
 #citations {
   padding: 1% 7%;
-  border-top: solid 0.01rem var(--light-green);
+  border-top: solid 0.01rem var(--light-purple);
+  margin-bottom: 6%;
 }
 
 .main-nav-style a{
@@ -622,13 +630,13 @@ h4.headings {
 }
 
 .nav:hover,.nav:focus {
-  color: var(--green);
+  color: var(--purple);
 }
 
 .viff {
   max-width: 100%;
   width: 100%;
-  border: solid 0.01rem var(--light-green);
+  border: solid 0.01rem var(--light-purple);
   display: block;
   height: auto;
 }
@@ -646,7 +654,7 @@ h4.headings {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--green);
+    background-color: var(--purple);
     opacity: 0; 
     transition: opacity 0.5s ease;
 }

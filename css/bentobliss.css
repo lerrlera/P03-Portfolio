@@ -1,7 +1,7 @@
 /* Bento Bliss Project 2 - CSS */
 
-#overview, #company, #style, #wireframes, #development, #challenges, #takeaways {
-	border-top: solid 0.01rem var(--blue);
+#overview, #company, #style, #wireframes, #development, #testing, #challenges, #takeaways {
+	border-top: solid 0.01rem var(--purple);
 	padding: 6rem 14rem;
 }
 
@@ -18,6 +18,7 @@
 .guide {
 	width: 100%;
 	margin-top: 4%;
+	border: solid 0.01rem var(--purple);
 }
 
 .sitemap {
@@ -27,6 +28,7 @@
 
 .wireframe-img {
 	width: 100%;
+	border: solid 0.01rem var(--purple);
 }
 
 .wireframe-grid {
