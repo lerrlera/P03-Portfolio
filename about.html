@@ -17,8 +17,45 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 
-  <script src="script.js"></script>
+ <!-- This is a JS code for burger functionality -->
+  <script>
+     document.addEventListener('DOMContentLoaded', function () {
+        // Function to toggle the visibility of the mobile nav links
+        function toggleMobileNavLinks() {
+            var navLinks = document.querySelector('.mobile-nav-links');
+            var burgerButton = document.querySelector('.burger-button');
+            var closeButton = document.querySelector('.close-button');
 
+            if (navLinks.style.display === 'none') {
+                navLinks.style.display = 'block';
+                burgerButton.style.display = 'none'; // Hide burger button
+                closeButton.style.display = 'block'; // Show close button
+            } else {
+                navLinks.style.display = 'none';
+                burgerButton.style.display = 'block'; // Show burger button
+                closeButton.style.display = 'none'; // Hide close button
+            }
+        }
+
+        // burger button
+        document.querySelector('.burger-button').addEventListener('click', function () {
+            toggleMobileNavLinks();
+        });
+
+        // =close button
+        document.querySelector('.close-button').addEventListener('click', function () {
+            toggleMobileNavLinks();
+        });
+
+        // mobile links - close menu if one of the links is clicked
+        var mobileLinks = document.querySelectorAll('.mobile-nav-links a');
+        mobileLinks.forEach(function(link) {
+            link.addEventListener('click', function() {
+                toggleMobileNavLinks();
+            });
+        });
+    });
+  </script>
 
 </head>
 
@@ -26,7 +63,7 @@
 
   <header>
     <div class="header-box">
-      <a class="logo-link-style" href="index.html">
+      <a class="logo-link" href="index.html">
         <img class="logo" src="assets/img/logo-vt.svg" alt="Personalized logo for Valeriya Ten">
       </a>
       
@@ -35,6 +72,18 @@
         <a class="nav-text" href="index.html#main">work</a>
         <a class="nav-text" href="#contact">contact</a>
       </nav>
+    </div>
+
+    <!-- Mobile Menu -->
+      <div id="burger-menu">
+        <button class="burger-button"> ☰ </button>
+        <div class="mobile-nav-links">
+          <button class="close-button">&times;</button>
+          <a href="about.html">about</a>
+          <a href="index.html#main">work</a>
+          <a href="index.html#contact">contact</a>
+        </div>
+      </div>
     </div>
   </header>
   <section id="main">
