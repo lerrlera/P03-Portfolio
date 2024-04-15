@@ -733,6 +733,31 @@ h4.headings {
     display: none;
   }
 
+  .contact h3 {
+    font-size: 2rem;
+    margin-top: 20%;
+    margin-bottom: 5%;
+  }
+
+  .links h3 {
+    font-size: 2rem;
+    margin-bottom: 5%;
+  }
+
+  .contact p {
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+  }
+
+  .links p {
+    font-size: 1.2rem;
+    margin-bottom: 2%;
+  }
+
+  .footer-box {
+    margin-bottom: 10%;
+  }
+
 }
 
 @media screen and (max-width: 35em) {
@@ -744,6 +769,24 @@ h4.headings {
   .logo-link {
     width: 57%;
   }
+
+  .link-box .text-link {
+    font-size: 1.3rem;
+    margin-bottom: 24%;
+  }
+
+  .project-title {
+    margin-top: 5%;
+  }
+
+  .h2-box {
+    margin-bottom: 11%;
+  }
+
+  .project-description {
+    margin-bottom: 5%;
+  }
+
 
 }
 

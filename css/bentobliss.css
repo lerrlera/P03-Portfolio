@@ -46,3 +46,53 @@
 .code, .git {
 	width: 100%;
 }
+
+@media screen and (max-width: 80em) {
+	#overview, #company, #style, #wireframes, #development, #testing, #challenges, #takeaways {
+		padding: 6rem 9rem;
+	}
+
+}
+
+
+@media screen and (max-width: 70em) {
+	#overview, #company, #style, #wireframes, #development, #testing, #challenges, #takeaways {
+		padding: 6rem 5rem;
+	}
+}
+
+
+
+@media screen and (max-width: 50em) {
+	#overview, #company, #style, #wireframes, #development, #testing, #challenges, #takeaways {
+		padding: 6rem 3rem;
+	}
+
+	.wireframe-grid {
+		grid-template-columns: repeat(1, 1fr);
+
+	}
+}
+
+@media screen and (max-width: 45em) {
+	#main {
+		padding: 0;
+	}
+
+	.bento-logo {
+		width: 100%;
+		margin-top: 10%;
+		margin-bottom: 10%;
+	}
+
+	.company-box {
+		flex-direction: column;
+	}
+
+}
+@media screen and (max-width: 35em) {
+	#overview, #company, #style, #wireframes, #development, #testing, #challenges, #takeaways {
+		padding: 6rem 2rem;
+	}
+
+}
