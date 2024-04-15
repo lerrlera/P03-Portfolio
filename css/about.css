@@ -11,7 +11,7 @@
 }
 
 .about-h1 {
-  padding-top: 12%;
+  padding-top: 5%;
   padding-bottom: 5%;
   font-size: 3.6rem;
 }
@@ -31,4 +31,77 @@
 .about-content  p {
   margin-bottom: 2%;
   font-size: 1.1rem;
+}
+
+@media screen and (max-width: 80em) {
+    .about-image {
+      width: 44%;
+    }
+
+}
+
+@media screen and (max-width: 70em) {
+    .about-h1 {
+      padding-top: 5%;
+      padding-bottom: 5%;
+      font-size: 3rem;
+    }
+    .about-image {
+      margin-top: 5%;
+  }
+
+}
+
+@media screen and (max-width: 60em) {
+    .about-h1 {
+      padding-top: 5%;
+      padding-bottom: 5%;
+      font-size: 2.5rem;
+    }
+    .about-image {
+      margin-top: 5%;
+  }
+
+  .about-content  p {
+    max-width: 90%;
+  }
+
+}
+
+@media screen and (max-width: 50em) {
+  .about-h1 {
+      padding-top: 5%;
+      padding-bottom: 5%;
+      font-size: 3rem;
+  }
+  .about-image {
+      margin-top: 5%;
+      width: 100%;
+  }
+
+  .about-box {
+    flex-direction: column;
+    margin-top:30%;
+  }
+
+  .about-content  p {
+    max-width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 50em) {
+    .about-h1 {
+      padding-top: 5%;
+      padding-bottom: 5%;
+      font-size: 3rem;
+    }
+    .about-image {
+      margin-top: 5%;
+  }
+
+  .about-box {
+    flex-direction: column;
+  }
+
 }
