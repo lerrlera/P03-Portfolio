@@ -1,7 +1,7 @@
 /* Bento Bliss Project 2 - CSS */
 
 #overview, #company, #style, #wireframes, #development, #testing, #challenges, #takeaways {
-	border-top: solid 0.01rem var(--purple);
+	border-top: solid 0.01rem var(--light-purple);
 	padding: 6rem 14rem;
 }
 
